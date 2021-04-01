@@ -46,7 +46,6 @@ public class BubbleSort
         System.out.println("After Sorting");
         for(i = 0; i<length; i++)
         {
-            array.add(rand.nextInt(1000)+1);
             System.out.println("Element:"+(i+1)+" "+array.get(i));
         }
     }
